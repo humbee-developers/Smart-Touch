@@ -1,3 +1,10 @@
 .c-header-page_background {
     top: -85px !important;
 }
+
+@media (max-width: 999px) {
+    .c-block-documents_link_icon.-link {
+      height: 24px !important;
+      width: 23px !important;
+    }
+  }
