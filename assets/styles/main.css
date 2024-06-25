@@ -8828,6 +8828,14 @@ a:hover .c-block-documents_link_icon-wrap:before {
   position: relative;
   z-index: 2;
 }
+.prjects-links{
+  transition: all 0.3 ease;
+
+}
+.prjects-links:hover{
+  color: black;
+  transition: all 0.3 ease;
+}
 @media (min-width: 1000px) {
   .c-block-documents_link_icon.-link {
     height: 26px;
