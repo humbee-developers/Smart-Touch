@@ -5720,7 +5720,7 @@ html.is-loaded.has-menu-mobile-open .c-menu-mobile_container {
 .c-carousel-preview_slide_image {
   margin-bottom: 1.25rem;
   overflow: hidden;
-  padding-bottom: 65%;
+  padding-bottom: 100%;
   position: relative;
   width: 100%;
 }
@@ -9402,7 +9402,7 @@ html.has-aside-open .c-share_button {
   }
 }
 .c-related_item_image-wrap {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   display: block;
   flex-shrink: 0;
   overflow: hidden;
@@ -12351,3 +12351,17 @@ a:hover .u-anim-zoom {
     font-size: 40px;
   }
 }
+
+.read-more-button-text{
+  padding-top: 1rem;
+}
+.read-more-content {
+  overflow: hidden;
+  max-height: 410px; /* Initial height to show */
+  transition: max-height 0.3s ease; /* Smooth transition */
+}
+
+.read-more-content.expanded {
+  max-height: 100%; /* Expanded height to show all content, adjust as needed */
+}
+
