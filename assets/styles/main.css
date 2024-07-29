@@ -5668,7 +5668,7 @@ html.is-loaded.has-menu-mobile-open .c-menu-mobile_container {
 }
 .c-carousel-preview_wrapper {
   align-items: stretch;
-  min-height: 30vw;
+  min-height: 20vw;
 }
 .c-carousel-preview_slide {
   display: flex;
